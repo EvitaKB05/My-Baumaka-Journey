@@ -1,0 +1,279 @@
+:root{
+    --nav-bar-margin-left: 1rem;
+    --nav-bar-font-style: sans-serif;
+    --nav-bar-text-color: #fafafa;
+}
+
+/* опишем базовый стиль кнопки калькулятора */
+#loginScreen {
+    display: flex;
+    /* Используем flexbox для центрирования */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#loginContent {
+    background-color: rgb(28, 31, 29);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#loginContent label {
+    display: block;
+    /* Чтобы label и input были на разных строках */
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#loginContent input,
+#loginContent button {
+    width: 100%;
+    /* Занимают всю ширину контейнера */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    /* Чтобы padding и border не увеличивали общую ширину */
+}
+
+#loginContent input[type="text"],
+#loginContent input[type="password"] {
+    color: white;
+    background-color: #555;
+    border: 1px solid #777;
+}
+
+#loginContent input::placeholder {
+    color: #ccc;
+}
+
+#loginButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background-color: #45a049;
+}
+
+#nav-bar{
+    position: fixed;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    background-color: #06070d;
+    top: 0;
+    left: 0;
+}
+
+#menu-button{
+    filter: invert(98%) sepia(4%) saturate(1%) hue-rotate(261deg) brightness(106%) contrast(96%);
+    margin-left: 0.5rem;
+}
+
+#divider{
+    width: 1px;
+    height: 50%;
+    background-color: lightgray;
+    margin-left: var(--nav-bar-margin-left);
+    border-radius: 0.8px;
+}
+
+#shop-button{
+    color: var(--nav-bar-text-color);
+    margin-left: var(--nav-bar-margin-left);
+    font-family: var(--nav-bar-font-style);
+}
+ 
+#search-form{
+    width: 200px;
+    flex-shrink: 1;
+    display: block;
+    height: 50%;
+    margin-left: var(--nav-bar-margin-left);
+}   
+
+#search-sign{
+    position: fixed;
+    filter: invert(98%) sepia(4%) saturate(1%) hue-rotate(261deg) brightness(106%) contrast(96%);
+    left: 8.7rem;
+    top: 1.1rem;
+}
+
+#search-input{
+    background-color: transparent;
+    padding-left: 1.5rem;
+    color: var(--nav-bar-text-color);
+    height: 100%;
+    border: 0px;
+}
+#log-in-button {
+    border-radius: 1px;
+    color: #000000;
+    height: 25px;
+    width: 70px;
+    margin-top: 2px;
+    text-align: center;
+    
+    margin-left: 930px; /* Add right margin */
+    background-color: #26cf3d;
+    font-family: var(--nav-bar-font-style);
+}
+.list {
+    width: 200px;
+    height: 35px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #226833;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    appearance: none;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+    background-image: url('cute.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-btn {
+    margin-right: 5px;
+    /* задаем отступ от кнопки справа */
+    margin-top: 5px;
+    /* задаем отступ от кнопки сверху*/
+    width: 50px;
+    /* задаем ширину кнопки */
+    height: 50px;
+    /* задаем высоту кнопки */
+    border-radius: 5%;
+    /* округляем кнопку */
+    border: none;
+    /* отключаем обводку */
+    background: #afe0be;
+    /* задаем серый цвет кнопки */
+    color: rgb(33, 34, 33);
+    /* задаем белый цвет текста внутри кнопки */
+    font-size: 1.5rem;
+    /* увеличим размер шрифта */
+    font-family: Arial, Helvetica, sans-serif;
+    /* сменим шрифт */
+    cursor: pointer;
+    /* при наведении на кнопку курсор будет изменен
+                                            со стрелки на 'указательный палец' */
+    user-select: none;
+    /* отключаем возможность выделить текст внутри кнопки */
+}
+
+/* hover - это состояние элемента, когда на него наведен курсор */
+.my-btn:hover {
+    background: rgb(56, 100, 46);
+    /* при наведение курсора на кнопку, она будет окрашена в серый */
+}
+
+.my-btn.primary:hover {
+    background: rgb(20, 88, 5);
+    /* при наведение курсора на кнопку, она будет окрашена в серый */
+}
+
+/* active - это состояние активации элемента. В случае кнопки - нажатие на нее */
+.my-btn:active {
+    filter: brightness(130%);
+    /* увеличим интенсивность цвета для эффекта вспышки */
+}
+
+/* селектор для кнопок первостепенных операций */
+.my-btn.primary {
+    background: #26cf3d;
+    /* цвет кнопки оранжевый */
+}
+
+/* селектор для кнопок второстепенных операций */
+.my-btn.secondary {
+    background: #468d52;
+    /* цвет кнопки сервый */
+}
+
+.my-btn.secondary:hover {
+    background: rgb(42, 78, 34);
+    /* при наведение курсора на кнопку, она будет окрашена в серый */
+}
+
+/* селектор для кнопки расчета выражения (=) */
+.my-btn.execute {
+    width: 110px;
+    /* сделаем кнопку шире других */
+    /*border-radius: 10px;   /* подкорректируем округлость */
+}
+
+/* селектор для поля вывода результата */
+.result {
+    width: 275px;
+    height: 70px;
+    margin-bottom: 20px;
+    /* отступ снизу */
+    padding-right: 10px;
+    /* выступ справа */
+    border-radius: 5px;
+    background: rgb(152, 202, 150);
+    /* цвет можно задавать и таким образом */
+    text-align: right;
+    /* примагнитим текст к правой стороне */
+    color: #08533a;
+    /* цвет текста белый */
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    margin-right: 30px;
+    /* задаем отступ от кнопки справа */
+    margin-top: 250px;
+    margin-bottom: 100px;
+    padding-top: 10px;
+    /* задаем отступ от кнопки сверху*/
+    /* задаем ширину кнопки */
+    height: 45px;
+    /* задаем высоту кнопки */
+    /* округляем кнопку */
+    border: none;
+    /* отключаем обводку */
+    background: #3fc932;
+    /* задаем серый цвет кнопки */
+    color: rgb(5, 5, 5);
+    /* задаем белый цвет текста внутри кнопки */
+    font-size: 1.5rem;
+    /* увеличим размер шрифта */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* сменим шрифт */
+    font-weight: bold;
+    cursor: pointer;
+    /* при наведении на кнопку курсор будет изменен                                со стрелки на 'указательный палец' */
+    user-select: none;
+    width: 228px;
+    /* сделаем кнопку шире других */
+    text-align: center;
+
+}
