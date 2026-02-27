@@ -1,0 +1,156 @@
+
+/* опишем базовый стиль кнопки калькулятора */
+body {
+    background-image: url("11.jpg");
+    /* background-color: rgb(58, 58, 58); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the calculator is vertically aligned */
+    
+
+      .my-btn { 
+        margin-right: 5px;           /* задаем отступ от кнопки справа */
+        margin-top: 5px;             /* задаем отступ от кнопки сверху*/
+        width: 50px;                 /* задаем ширину кнопки */
+        height: 50px;                /* задаем высоту кнопки */
+        border-radius: 0%;          /* округляем кнопку */
+        border: none;                /* отключаем обводку */
+        background: #e8efcf;         /* задаем серый цвет кнопки */
+        color: rgb(78, 78, 78);                /* задаем белый цвет текста внутри кнопки */
+        font-size: 1.5rem;           /* увеличим размер шрифта */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* сменим шрифт */
+        font-weight: bold;
+        cursor: pointer;             /* при наведении на кнопку курсор будет изменен                 со стрелки на 'указательный палец' */
+        user-select: none;           /* отключаем возможность выделить текст внутри кнопки */
+      } 
+      
+      /* hover - это состояние элемента, когда на него наведен курсор */
+      .my-btn:hover {
+        background: #a1c1a5; /* при наведение курсора на кнопку, она будет окрашена в серый */
+      }
+      
+      /* active - это состояние активации элемента. В случае кнопки - нажатие на нее */
+      .my-btn:active {
+        filter: brightness(130%); /* увеличим интенсивность цвета для эффекта вспышки */
+      }
+      
+      /* селектор для кнопок первостепенных операций */
+      .my-btn.primary { 
+        background: #9affad; /* цвет кнопки оранжевый */
+      }
+      
+      /* селектор для кнопок второстепенных операций */
+      .my-btn.secondary { 
+        background: #7d8070; /* цвет кнопки сервый */
+        color: #e8efcf;
+      }
+      
+      /* селектор для кнопки расчета выражения (=) */
+      .my-btn.execute { 
+        width: 110px;          /* сделаем кнопку шире других */
+        border-radius: 0px;   /* подкорректируем округлость */
+      }
+      
+      /* селектор для поля вывода результата */
+      .history { 
+        width: 205px;
+        height: 80px;
+        margin-bottom: 10px;         /* отступ снизу */
+        padding-right: 10px;      /* выступ справа */
+        border-radius: 5px;  
+        background: #e8efcf; /* цвет можно задавать и таким образом */
+        text-align: right;           /* примагнитим текст к правой стороне */
+        color: rgb(78, 78, 78);              /* цвет текста белый */
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* сменим шрифт */
+        font-weight: less bold;
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+        
+      }
+    
+      .signature{
+        width: 220px;
+        color: #e8efcf;                /* задаем белый цвет текста внутри кнопки */
+        font-size: 1.5rem;           /* увеличим размер шрифта */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* сменим шрифт */
+        font-weight: bold;
+        cursor: pointer;             /* при наведении на кнопку курсор будет изменен                    со стрелки на 'указательный палец' */
+        user-select: none;   
+      }
+
+      .list{
+        margin-right: 5px;           /* задаем отступ от кнопки справа */
+        margin-top: 5px;             /* задаем отступ от кнопки сверху*/
+        width: 50px;                 /* задаем ширину кнопки */
+        height: 50px;                /* задаем высоту кнопки */
+        border-radius: 0%;          /* округляем кнопку */
+        border: none;                /* отключаем обводку */
+        background: #e8efcf;         /* задаем серый цвет кнопки */
+        color: rgb(78, 78, 78);                /* задаем белый цвет текста внутри кнопки */
+        font-size: 1.5rem;           /* увеличим размер шрифта */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* сменим шрифт */
+        font-weight: bold;
+        cursor: pointer;             /* при наведении на кнопку курсор будет изменен                        со стрелки на 'указательный палец' */
+        user-select: none;  
+        width: 110px;          /* сделаем кнопку шире других */
+        border-radius: 0px;
+      }
+    
+      .about{
+        margin-right: 5px;           /* задаем отступ от кнопки справа */
+        margin-top: 5px; 
+        margin-bottom: 125px;
+        padding-top: 7px;    /* задаем отступ от кнопки сверху*/                 /* задаем ширину кнопки */
+        height: 45px;                /* задаем высоту кнопки */         /* округляем кнопку */
+        border: none;                /* отключаем обводку */
+        background: #e8efcf;         /* задаем серый цвет кнопки */
+        color: rgb(78, 78, 78);                /* задаем белый цвет текста внутри кнопки */
+        font-size: 1.5rem;           /* увеличим размер шрифта */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* сменим шрифт */
+        font-weight: bold;
+        cursor: pointer;             /* при наведении на кнопку курсор будет изменен                                со стрелки на 'указательный палец' */
+        user-select: none;  
+        width: 228px;          /* сделаем кнопку шире других */
+        text-align: center;
+      }
+      
+      .goals{
+        color: #9affad;                /* задаем белый цвет текста внутри кнопки */
+      }
+
+      .container{
+        width: 300px;
+        background-image: url("back.jpg");
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        border-radius: 15px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-left: 65px;
+        
+      }
+
+    .operation {
+        font-size: large;
+        text-align: left;
+    }
+    
+    .previous-calculation {
+        font-size: large;
+        text-align: right;
+        margin-top: -20px;
+    }
+    
+    .current-result {
+        font-size: larger;
+        margin-top: 10px; /* Adjust the margin to bring the result number up */
+        text-align: right;
+    }
+
+      
+  } 
+

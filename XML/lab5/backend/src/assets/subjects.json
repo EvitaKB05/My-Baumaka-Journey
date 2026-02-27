@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "src": "static/images/algebra.jpg",
+        "title": "Алгебра",
+        "text": "На этом предмете ученик более углубленно и абстрактно изучит самый универсальный язык Вселенной.",
+        "modules": [
+            {
+                "src": "static/images/trigonometry.jpg",
+                "title": "Тригонометрия"
+            },
+            {
+                "src": "static/images/probability_theory.jpg",
+                "title": "Теория вероятностей"
+            },
+            {
+                "src": "static/images/number_theory.jpg",
+                "title": "Теория чисел"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "src": "static/images/biology.jpg",
+        "title": "Биология",
+        "text": "Биология откроет ученику сложные механизмы устройства всего живого.",
+        "modules": [
+            {
+                "src": "static/images/botany.jpg",
+                "title": "Ботаника"
+            },
+            {
+                "src": "static/images/zoology.jpg",
+                "title": "Зоология"
+            },
+            {
+                "src": "static/images/anatomy.webp",
+                "title": "Анатомия"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "src": "static/images/physics.jpg",
+        "title": "Физика",
+        "text": "Данный предмет описывает мир как систему точных законов и правил и дает подробное и интересное объяснение феноменам, окружающим нас в повседневной жизни.",
+        "modules": [
+            {
+                "src": "static/images/mechanics.png",
+                "title": "Механика"
+            },
+            {
+                "src": "static/images/electrodynamics.jpg",
+                "title": "Электродинамика"
+            },
+            {
+                "src": "static/images/optics.jpg",
+                "title": "Оптика"
+            }
+        ]
+    }
+]
