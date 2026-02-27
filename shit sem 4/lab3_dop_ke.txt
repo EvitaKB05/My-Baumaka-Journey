@@ -1,0 +1,84 @@
+mydata segment 'data'    
+    my_str db "Kudabayeva", 0
+mydata ends
+
+mycode segment 'code'
+
+assume cs:mycode, ds:mydata
+
+start:
+    mov ax, mydata
+    mov ds, ax
+
+    call clrscr
+
+    text:
+    call clrf 
+    mov dl, 80H
+    call putch
+    call clrf
+    mov dl, 81H
+    call putch
+    call clrf
+    mov dl, 82H
+    call putch
+    call clrf 
+    call getch
+
+    cmp al, 'r'
+
+    je text                    
+
+    mov cx, 6
+    mov di, offset my_str
+    mov ah, 02h
+    surname:
+    mov dl, [di]
+    int 21h
+    inc di   
+    loop surname
+    call getch 
+
+    call clrscr
+    mov al, 00h
+    mov ah, 4ch
+    int 21h
+
+putch proc
+    ; Процедура вывода символа.
+
+    mov ah, 02h
+    int 21h
+
+    ret
+putch endp
+
+getch proc
+    ; Процедура ввода символа
+
+    mov ah, 08h
+    int 21h
+    mov ah, 02h
+    mov dl, al
+    int 21h
+
+    ret
+getch endp
+
+clrf proc
+    mov dl, 0Ah
+    call putch
+    mov dl, 0Dh
+    call putch
+    ret
+clrf endp
+
+clrscr proc
+    mov ah, 00h     
+    int 10h
+    ret
+clrscr endp
+
+mycode ends
+
+end start
