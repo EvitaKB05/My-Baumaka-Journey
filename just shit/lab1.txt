@@ -1,0 +1,49 @@
+lab1/
+├── cmd/
+│   ├── lab1-server/
+│   │   └── main.go
+│   └── migrate/
+│       └── main.go
+├── config/
+│   └── config.toml
+├── internal/
+│   ├── api/
+│   │   ├── pvlc_server.go
+│   │   ├── pvlc_methods_handlers.go
+│   │   ├── med_cards_methods.go
+│   │   └── mm_med_users.go
+│   └── app/
+│       ├── ds/
+│       │   ├── pvlc_med_formulas.go
+│       │   ├── med_mm_pvlc_calculations.go
+│       │   ├── pvcl_med_cards.go
+│       │   ├── med_users.go
+│       │   ├── pvcl_med_requests.go
+│       │   └── pvcl_med_responses.go
+│       ├── dsn/
+│       │   └── dsn.go
+│       ├── handler/
+│       │   ├── pvcl_main_med_methods.go
+│       │   └── pvcl_med_card.go
+│       └── repository/
+│           ├── pvcl_repo.go
+│           └── api_pvcl_repo.go
+├── resources/
+│   ├── img/
+│   │   ├── lung.png
+│   │   ├── folder.png
+│   │   └── (другие изображения)
+│   ├── styles/
+│   │   ├── pvcl_patients.css   
+│   │   ├── pvcl_patient.css
+│   │   └── pvcl_med_calc.css    
+├── templates/
+│       ├── pvcl_patients.html   
+│       ├── pvcl.patient.html
+│       └── pvcl_med_calc.html
+├── go.mod
+├── go.sum
+├── docker-compose.yml
+├── nginx.conf
+├── init.sql
+└── .env

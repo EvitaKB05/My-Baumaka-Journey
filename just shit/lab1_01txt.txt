@@ -1,0 +1,544 @@
+lab1/
+├── cmd/
+│   ├── lab1-server/
+│   │   └── main.go
+│   └── migrate/
+│       └── main.go
+├── config/
+│   └── config.toml
+├── internal/
+│   ├── api/
+│   │   ├── med_cards_methods.go
+│   │   ├── mm_med_users.go
+│   │   ├── pvlc_methods_handlers.go
+│   │   └── pvlc_server.go
+│   └── app/
+│       ├── ds/
+│       │   ├── med_mm_pvlc_calculations.go
+│       │   ├── med_users.go
+│       │   ├── pvlc_med_cards.go
+│       │   ├── pvlc_med_formulas.go
+│       │   ├── pvlc_med_requests.go
+│       │   └── pvlc_med_responses.go
+│       ├── dsn/
+│       │   └── dsn.go
+│       ├── handler/
+│       │   ├── pvlc_main_med_methods.go
+│       │   └── pvlc_med_card.go
+│       └── repository/
+│           ├── api_pvlc_repo.go
+│           └── pvlc_repo.go
+├── resources/
+│   ├── img/
+│   ├── styles/
+│   │   ├── base.css
+│   │   ├── pvlc_med_calc.css
+│   │   ├── pvlc_patient.css
+│   │   └── pvlc_patients.css
+│   └── templates/
+│       ├── base.html
+│       ├── pvlc_med_calc.html
+│       ├── pvlc_patient.html
+│       └── pvlc_patients.html
+├── .env
+├── docker-compose.yml
+├── go.mod
+├── go.sum
+├── init.sql
+├── nginx.conf
+└── README.md
+
+# Полная структура проекта после лабораторной работы 4
+
+```
+lab1/
+├── cmd/
+│   ├── lab1-server/
+│   │   └── main.go                          # ОБНОВЛЕН - добавлены Swagger аннотации
+│   └── migrate/
+│       └── main.go                          # ОБНОВЛЕН - миграции для новых полей
+├── config/
+│   └── config.toml
+├── internal/
+│   ├── api/
+│   │   ├── med_cards_methods.go             # ОБНОВЛЕН - проверки прав доступа
+│   │   ├── mm_med_users.go                  # ОБНОВЛЕН - интеграция с JWT
+│   │   ├── pvlc_methods_handlers.go         # ОБНОВЛЕН - Swagger документация
+│   │   ├── pvlc_server.go                   # ПОЛНОСТЬЮ ПЕРЕПИСАН - новая структура маршрутов
+│   │   ├── auth_handlers.go                 # НОВЫЙ - обработчики аутентификации
+│   │   └── swagger_handlers.go              # НОВЫЙ - Swagger обработчики
+│   ├── app/
+│   │   ├── ds/
+│   │   │   ├── med_mm_pvlc_calculations.go
+│   │   │   ├── med_users.go                 # ОБНОВЛЕН - добавлено поле CreatedBy
+│   │   │   ├── pvlc_med_cards.go            # ОБНОВЛЕН - добавлено поле UserID
+│   │   │   ├── pvlc_med_formulas.go
+│   │   │   ├── pvlc_med_requests.go
+│   │   │   ├── pvlc_med_responses.go
+│   │   │   └── jwt_claims.go                # НОВЫЙ - JWT структуры
+│   │   ├── dsn/
+│   │   │   └── dsn.go
+│   │   ├── handler/
+│   │   │   ├── pvlc_main_med_methods.go
+│   │   │   └── pvlc_med_card.go
+│   │   └── repository/
+│   │       ├── api_pvlc_repo.go
+│   │       ├── pvlc_repo.go
+│   │       └── auth_repo.go                 # НОВЫЙ - методы для аутентификации
+│   ├── auth/
+│   │   └── middleware.go                    # НОВЫЙ - JWT middleware
+│   ├── redis/
+│   │   └── client.go                        # НОВЫЙ - Redis клиент
+│   └── docs/                                # НОВАЯ ПАПКА - Swagger документация
+│       ├── docs.go
+│       ├── swagger.json
+│       └── swagger.yaml
+├── resources/
+│   ├── img/
+│   ├── styles/
+│   │   ├── base.css
+│   │   ├── pvlc_med_calc.css
+│   │   ├── pvlc_patient.css
+│   │   └── pvlc_patients.css
+│   └── templates/
+│       ├── base.html
+│       ├── pvlc_med_calc.html
+│       ├── pvlc_patient.html
+│       └── pvlc_patients.html
+├── .env
+├── docker-compose.yml                       # ОБНОВЛЕН - добавлен Redis
+├── go.mod                                   # ОБНОВЛЕН - новые зависимости
+├── go.sum
+├── init.sql                                 # ОБНОВЛЕН - тестовые пользователи
+├── nginx.conf
+└── README.md
+```
+
+# Пошаговый процесс запуска в VS Code
+
+## Шаг 1: Подготовка окружения
+
+**Открываем VS Code и запускаем терминал:**
+
+```bash
+# Открываем папку проекта в VS Code
+code lab1
+
+# Проверяем что находимся в правильной директории
+pwd
+# Должно быть: /path/to/your/lab1
+
+# Проверяем структуру проекта
+ls -la
+```
+
+## Шаг 2: Установка новых зависимостей
+
+**В терминале VS Code выполняем:**
+
+```bash
+# Добавляем новые зависимости для лабораторной работы 4
+go get github.com/golang-jwt/jwt
+go get github.com/go-redis/redis/v8
+go get github.com/swaggo/gin-swagger
+go get github.com/swaggo/files
+go get github.com/swaggo/swag
+
+# Скачиваем все зависимости
+go mod tidy
+
+# Проверяем что зависимости установились
+go list -m all | grep -E "(jwt|redis|swag)"
+```
+
+## Шаг 3: Установка Swag CLI
+
+```bash
+# Устанавливаем утилиту swag для генерации документации
+go install github.com/swaggo/swag/cmd/swag@latest
+
+# Проверяем установку
+swag --version
+
+# Если не устанавливается через go install, можно скачать бинарник
+# или использовать альтернативные методы установки из документации Swag
+```
+
+## Шаг 4: Обновление Docker контейнеров
+
+```bash
+# Останавливаем существующие контейнеры
+docker-compose down
+
+# Запускаем с обновленной конфигурацией (добавлен Redis)
+docker-compose up -d
+
+# Проверяем что все сервисы запущены
+docker ps
+
+# Должны увидеть:
+# - postgres
+# - adminer 
+# - minio1, minio2, minio3, minio4
+# - nginx
+# - redis (НОВЫЙ)
+```
+
+## Шаг 5: Выполнение миграций базы данных
+
+```bash
+# Запускаем миграции для создания новых таблиц и полей
+go run cmd/migrate/main.go
+
+# Должны увидеть сообщение: "Миграции успешно выполнены!"
+```
+
+## Шаг 6: Генерация Swagger документации
+
+```bash
+# Генерируем Swagger документацию из комментариев в коде
+swag init -g cmd/lab1-server/main.go
+
+# Проверяем что файлы создались
+ls -la docs/
+
+# Должны быть созданы:
+# - docs.go
+# - swagger.json  
+# - swagger.yaml
+```
+
+## Шаг 7: Запуск сервера
+
+```bash
+# Запускаем сервер
+go run cmd/lab1-server/main.go
+
+# В логах должны увидеть:
+# - "Application start!"
+# - "Server starting on :8080"
+# - "Swagger UI available at: http://localhost:8080/swagger/index.html"
+```
+
+## Шаг 8: Проверка Swagger UI
+
+**Открываем браузер и переходим по адресу:**
+```
+http://localhost:8080/swagger/index.html
+```
+
+**В Swagger UI проверяем:**
+
+1. **Документация загрузилась** - видим все endpoints
+2. **Авторизация работает** - пробуем авторизоваться через кнопку "Authorize"
+3. **Endpoints сгруппированы** по тегам (auth, formulas, medical-cards, cart)
+
+## Шаг 9: Тестирование аутентификации через Swagger
+
+**В Swagger UI:**
+
+1. **Находим endpoint `/api/auth/login`**
+2. **Нажимаем "Try it out"**
+3. **Вводим тестовые данные:**
+```json
+{
+  "login": "doctor1",
+  "password": "pass123"
+}
+```
+4. **Выполняем запрос** - должны получить JWT токен
+5. **Копируем токен** из ответа
+
+## Шаг 10: Настройка авторизации в Swagger
+
+1. **Нажимаем кнопку "Authorize" вверху страницы**
+2. **Вводим:** `Bearer [ваш_скопированный_токен]`
+3. **Нажимаем Authorize** - теперь все защищенные endpoints будут использовать этот токен
+
+# Пошаговое тестирование в Postman
+
+## Шаг 1: Создание коллекции Postman
+
+**В Postman создаем новую коллекцию:**
+
+1. **Новая коллекция** → "Lung Capacity API Lab4"
+2. **Добавляем переменные коллекции:**
+   - `base_url`: `http://localhost:8080`
+   - `token`: (оставляем пустым, заполнится после логина)
+   - `moderator_token`: (оставляем пустым)
+
+## Шаг 2: Тест аутентификации
+
+**Создаем запрос "Login User":**
+
+```http
+POST {{base_url}}/api/auth/login
+Content-Type: application/json
+
+{
+  "login": "doctor1",
+  "password": "pass123"
+}
+```
+
+**Выполняем и сохраняем токен:**
+
+1. **Отправляем запрос** - получаем 200 OK с токеном
+2. **В тестах запроса добавляем:**
+```javascript
+// Сохраняем токен в переменную коллекции
+if (pm.response.code === 200) {
+    const responseData = pm.response.json();
+    pm.collectionVariables.set("token", responseData.data.token);
+    console.log("Token saved:", responseData.data.token);
+}
+```
+
+## Шаг 3: Тест получения профиля
+
+**Создаем запрос "Get Profile":**
+
+```http
+GET {{base_url}}/api/auth/profile
+Authorization: Bearer {{token}}
+```
+
+**Проверяем:**
+- **Status:** 200 OK
+- **Body:** информация о пользователе
+
+## Шаг 4: Тест публичных endpoints (без авторизации)
+
+**Создаем запрос "Get Formulas Public":**
+
+```http
+GET {{base_url}}/api/pvlc-med-formulas
+```
+
+**Проверяем:**
+- **Status:** 200 OK (должен работать без авторизации)
+- **Body:** список формул
+
+## Шаг 5: Тест защищенных endpoints
+
+**Создаем запрос "Add to Cart":**
+
+```http
+POST {{base_url}}/api/pvlc-med-formulas/1/add-to-cart
+Authorization: Bearer {{token}}
+```
+
+**Проверяем:**
+- **Status:** 200 OK (только с авторизацией)
+- **Body:** подтверждение добавления
+
+## Шаг 6: Тест получения заявок пользователя
+
+**Создаем запрос "Get User Cards":**
+
+```http
+GET {{base_url}}/api/pvlc-med-cards
+Authorization: Bearer {{token}}
+```
+
+**Проверяем:**
+- **Status:** 200 OK
+- **Body:** список заявок пользователя (только его заявки)
+
+## Шаг 7: Тест модератора
+
+**Создаем запрос "Login Moderator":**
+
+```http
+POST {{base_url}}/api/auth/login
+Content-Type: application/json
+
+{
+  "login": "admin",
+  "password": "admin123"
+}
+```
+
+**В тестах запроса добавляем:**
+```javascript
+// Сохраняем токен модератора
+if (pm.response.code === 200) {
+    const responseData = pm.response.json();
+    pm.collectionVariables.set("moderator_token", responseData.data.token);
+    console.log("Moderator token saved:", responseData.data.token);
+}
+```
+
+## Шаг 8: Тест завершения заявки модератором
+
+**Создаем запрос "Complete Card (Moderator)":**
+
+```http
+PUT {{base_url}}/api/pvlc-med-cards/1/complete
+Authorization: Bearer {{moderator_token}}
+Content-Type: application/json
+
+{
+  "action": "complete"
+}
+```
+
+**Проверяем:**
+- **Status:** 200 OK (только для модератора)
+- **Body:** подтверждение завершения с результатом расчета
+
+## Шаг 9: Тест выхода из системы
+
+**Создаем запрос "Logout":**
+
+```http
+POST {{base_url}}/api/auth/logout
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "token": "{{token}}"
+}
+```
+
+**Проверяем:**
+- **Status:** 200 OK
+- **Body:** подтверждение выхода
+
+## Шаг 10: Проверка что токен больше не работает
+
+**Повторяем запрос "Get Profile" после logout:**
+
+```http
+GET {{base_url}}/api/auth/profile
+Authorization: Bearer {{token}}
+```
+
+**Проверяем:**
+- **Status:** 401 Unauthorized (токен в черном списке)
+
+# Проверка Redis
+
+## Шаг 1: Подключение к Redis
+
+```bash
+# Подключаемся к Redis контейнеру
+docker exec -it lab1-redis-1 redis-cli
+
+# Или если используете другое имя контейнера
+docker ps | grep redis
+docker exec -it [container_id] redis-cli
+```
+
+## Шаг 2: Проверка данных в Redis
+
+**В консоли Redis выполняем команды:**
+
+```redis
+# Просмотр всех ключей
+127.0.0.1:6379> keys *
+
+# Проверяем черный список JWT (после logout)
+127.0.0.1:6379> keys jwt_blacklist:*
+
+# Просмотр конкретного ключа
+127.0.0.1:6379> get jwt_blacklist:[ваш_токен]
+
+# Выход из Redis
+127.0.0.1:6379> exit
+```
+
+# Дополнительные команды для отладки
+
+## Просмотр логов приложения
+
+```bash
+# В терминале где запущен сервер видим логи в реальном времени
+# Или просматриваем логи контейнеров:
+
+docker-compose logs postgres
+docker-compose logs redis
+docker-compose logs minio1
+```
+
+## Проверка базы данных через Adminer
+
+1. **Открываем в браузере:** `http://localhost:8081`
+2. **Входим в Adminer:**
+   - **System:** PostgreSQL
+   - **Server:** postgres
+   - **Username:** simpleuser
+   - **Password:** 12345
+   - **Database:** lung_db
+
+3. **Проверяем таблицы:**
+   - `med_users` - должны быть тестовые пользователи
+   - `pvlc_med_cards` - проверяем поле `user_id`
+   - `pvlc_med_formulas` - формулы ДЖЕЛ
+
+## Перезапуск при необходимости
+
+```bash
+# Остановка всех контейнеров
+docker-compose down
+
+# Перезапуск
+docker-compose up -d
+
+# Повторная миграция (если нужно)
+go run cmd/migrate/main.go
+
+# Запуск сервера
+go run cmd/lab1-server/main.go
+```
+
+# Sequence диаграмма для демонстрации
+
+Создаем файл `sequence_diagram.txt` в корне проекта:
+
+```
+Sequence Diagram - Lung Capacity API Lab 4
+
+Frontend -> AuthAPI: POST /api/auth/login {login, password}
+AuthAPI -> Redis: Check credentials & generate session
+AuthAPI --> Frontend: JWT token
+
+Frontend -> FormulasAPI: GET /api/pvlc-med-formulas (public)
+FormulasAPI --> Frontend: List of formulas
+
+Frontend -> MedCardsAPI: POST /api/pvlc-med-formulas/{id}/add-to-cart
+MedCardsAPI -> Redis: Verify JWT token
+MedCardsAPI --> Frontend: Added to cart
+
+Frontend -> MedCardsAPI: GET /api/pvlc-med-cards
+MedCardsAPI -> Redis: Verify JWT & check permissions
+MedCardsAPI --> Frontend: User's cards only
+
+ModeratorFrontend -> AuthAPI: POST /api/auth/login {admin, admin123}
+AuthAPI --> ModeratorFrontend: Moderator JWT token
+
+ModeratorFrontend -> MedCardsAPI: PUT /api/pvlc-med-cards/{id}/complete {action}
+MedCardsAPI -> Redis: Verify moderator JWT
+MedCardsAPI -> Database: Update card status & calculate DJEL
+MedCardsAPI --> ModeratorFrontend: Completion result
+
+ModeratorFrontend -> MedCardsAPI: GET /api/pvlc-med-cards
+MedCardsAPI -> Redis: Verify moderator JWT
+MedCardsAPI --> ModeratorFrontend: All cards (moderator view)
+
+Frontend -> AuthAPI: POST /api/auth/logout {token}
+AuthAPI -> Redis: Add token to blacklist
+AuthAPI --> Frontend: Logout confirmed
+```
+
+# Итоговые проверки лабораторной работы 4
+
+✅ **JWT аутентификация** - работает через Swagger и Postman  
+✅ **Redis интеграция** - сессии и черный список токенов  
+✅ **Swagger документация** - автоматическая генерация  
+✅ **Ролевая модель** - разделение прав пользователь/модератор  
+✅ **Проверка прав доступа** - пользователи видят только свои заявки  
+✅ **Sequence диаграмма** - полный бизнес-процесс  
+✅ **Postman тесты** - все сценарии использования  
+
+Все изменения реализованы строго по требованиям лабораторной работы 4.

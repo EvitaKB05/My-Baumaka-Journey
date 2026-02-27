@@ -1,0 +1,395 @@
+client:733 [vite] connecting...
+client:827 [vite] connected.
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+api.ts:62 Backend connected successfully
+api.ts:62 Backend connected successfully
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Mixed Content: The page at '<URL>' was loaded over HTTPS, but requested an insecure element '<URL>'. This request was automatically upgraded to HTTPS, For more information see <URL>
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+[DOM] Input elements should have autocomplete attributes <attribute>: (More info: <URL>) 
+[DOM] Input elements should have autocomplete attributes <attribute>: (More info: <URL>) 
+[DOM] Input elements should have autocomplete attributes <attribute>: (More info: <URL>) 
+[DOM] Input elements should have autocomplete attributes <attribute>: (More info: <URL>) 
+[DOM] Input elements should have autocomplete attributes <attribute>: (More info: <URL>) 
+PvlcRegisterPage.tsx:60 Registering user: {login: 'user', password: 'user123', is_moderator: false}
+authSlice.ts:206 Registering user: {login: 'user', password: 'user123', is_moderator: false}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+index.ts:21 🔧 Interceptor - URL: /api/med-users/register
+index.ts:22 🔧 Interceptor - Token exists: false
+authSlice.ts:208 Registration response: {data: {…}}
+authSlice.ts:313 RegisterUser fulfilled
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+PvlcRegisterPage.tsx:66 Registration successful, now logging in...
+authSlice.ts:63 Logging in with: {login: 'user', password: 'user123'}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+index.ts:21 🔧 Interceptor - URL: /api/auth/login
+index.ts:22 🔧 Interceptor - Token exists: false
+authSlice.ts:67 Raw API response: {data: {…}}
+authSlice.ts:76 Response data: {token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3N…xzZX0.q1gJYZgpX8ZjoK-LO93oXhDIIECF_h8PVkf0ygFqSmw', user: {…}, expires_at: '2025-12-08T15:04:52.7610428+03:00'}
+authSlice.ts:85 Found token: eyJhbGciOiJIUzI1NiIs...
+authSlice.ts:90 Found user: {id: 11, login: 'user', is_moderator: false}
+authSlice.ts:97 ✅ Token saved to localStorage
+authSlice.ts:105 ✅ User saved to localStorage: {id: 11, login: 'user', is_moderator: false}
+authSlice.ts:254 Login fulfilled, user set: {id: 11, login: 'user', is_moderator: false}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+PvlcRegisterPage.tsx:78 Auto-login successful
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+index.ts:21 🔧 Interceptor - URL: /api/auth/profile
+index.ts:22 🔧 Interceptor - Token exists: true
+index.ts:29 🔧 Interceptor - Added Authorization header
+index.ts:21 🔧 Interceptor - URL: /api/auth/profile
+index.ts:22 🔧 Interceptor - Token exists: true
+index.ts:29 🔧 Interceptor - Added Authorization header
+authSlice.ts:156 Profile API response: {data: {…}}
+authSlice.ts:167 Extracted profile from response.data
+authSlice.ts:177 Profile data: {id: 11, login: 'user', is_moderator: false}
+authSlice.ts:181 ✅ Profile saved to localStorage
+authSlice.ts:295 GetProfile fulfilled, user set: {id: 11, login: 'user', is_moderator: false}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+authSlice.ts:156 Profile API response: {data: {…}}
+authSlice.ts:167 Extracted profile from response.data
+authSlice.ts:177 Profile data: {id: 11, login: 'user', is_moderator: false}
+authSlice.ts:181 ✅ Profile saved to localStorage
+authSlice.ts:295 GetProfile fulfilled, user set: {id: 11, login: 'user', is_moderator: false}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+[Violation] 'submit' handler took 2255ms
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'user'}
+index.ts:21 🔧 Interceptor - URL: /api/auth/logout
+index.ts:22 🔧 Interceptor - Token exists: true
+index.ts:29 🔧 Interceptor - Added Authorization header
+Api.ts:875   POST http://localhost:8080/api/auth/logout 400 (Bad Request)
+dispatchXhrRequest @ xhr.js:198
+xhr @ xhr.js:15
+dispatchRequest @ dispatchRequest.js:51
+Promise.then
+_request @ Axios.js:163
+request @ Axios.js:40
+wrap @ bind.js:12
+request @ Api.ts:875
+authLogoutCreate @ Api.ts:941
+(anonymous) @ authSlice.ts:127
+(anonymous) @ createAsyncThunk.ts:361
+(anonymous) @ createAsyncThunk.ts:400
+(anonymous) @ redux-thunk.mjs:5
+(anonymous) @ immutableStateInvariantMiddleware.ts:183
+(anonymous) @ actionCreatorInvariantMiddleware.ts:29
+dispatch @ page.bundle.js:6
+handleLogout @ Navbar.tsx:27
+executeDispatch @ react-dom-client.development.js:19116
+runWithFiberInDEV @ react-dom-client.development.js:871
+processDispatchQueue @ react-dom-client.development.js:19166
+(anonymous) @ react-dom-client.development.js:19767
+batchedUpdates$1 @ react-dom-client.development.js:3255
+dispatchEventForPluginEventSystem @ react-dom-client.development.js:19320
+dispatchEvent @ react-dom-client.development.js:23585
+dispatchDiscreteEvent @ react-dom-client.development.js:23553
+<button>
+exports.jsx @ react-jsx-runtime.development.js:335
+Button @ Button.js:27
+react_stack_bottom_frame @ react-dom-client.development.js:25904
+renderWithHooksAgain @ react-dom-client.development.js:7762
+renderWithHooks @ react-dom-client.development.js:7674
+updateForwardRef @ react-dom-client.development.js:9724
+beginWork @ react-dom-client.development.js:12117
+runWithFiberInDEV @ react-dom-client.development.js:871
+performUnitOfWork @ react-dom-client.development.js:17641
+workLoopSync @ react-dom-client.development.js:17469
+renderRootSync @ react-dom-client.development.js:17450
+performWorkOnRoot @ react-dom-client.development.js:16504
+performSyncWorkOnRoot @ react-dom-client.development.js:18972
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:18814
+processRootScheduleInMicrotask @ react-dom-client.development.js:18853
+(anonymous) @ react-dom-client.development.js:18991
+<Button>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:335
+CustomNavbar @ Navbar.tsx:81
+react_stack_bottom_frame @ react-dom-client.development.js:25904
+renderWithHooksAgain @ react-dom-client.development.js:7762
+renderWithHooks @ react-dom-client.development.js:7674
+updateFunctionComponent @ react-dom-client.development.js:10166
+beginWork @ react-dom-client.development.js:11778
+runWithFiberInDEV @ react-dom-client.development.js:871
+performUnitOfWork @ react-dom-client.development.js:17641
+workLoopSync @ react-dom-client.development.js:17469
+renderRootSync @ react-dom-client.development.js:17450
+performWorkOnRoot @ react-dom-client.development.js:16504
+performSyncWorkOnRoot @ react-dom-client.development.js:18972
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:18814
+processRootScheduleInMicrotask @ react-dom-client.development.js:18853
+(anonymous) @ react-dom-client.development.js:18991
+installHook.js:1  Logout error, but cleared localStorage: AxiosError {message: 'Request failed with status code 400', name: 'AxiosError', code: 'ERR_BAD_REQUEST', config: {…}, request: XMLHttpRequest, …}
+overrideMethod @ installHook.js:1
+(anonymous) @ authSlice.ts:140
+await in (anonymous)
+(anonymous) @ createAsyncThunk.ts:361
+(anonymous) @ createAsyncThunk.ts:400
+(anonymous) @ redux-thunk.mjs:5
+(anonymous) @ immutableStateInvariantMiddleware.ts:183
+(anonymous) @ actionCreatorInvariantMiddleware.ts:29
+dispatch @ page.bundle.js:6
+handleLogout @ Navbar.tsx:27
+executeDispatch @ react-dom-client.development.js:19116
+runWithFiberInDEV @ react-dom-client.development.js:871
+processDispatchQueue @ react-dom-client.development.js:19166
+(anonymous) @ react-dom-client.development.js:19767
+batchedUpdates$1 @ react-dom-client.development.js:3255
+dispatchEventForPluginEventSystem @ react-dom-client.development.js:19320
+dispatchEvent @ react-dom-client.development.js:23585
+dispatchDiscreteEvent @ react-dom-client.development.js:23553
+<button>
+exports.jsx @ react-jsx-runtime.development.js:335
+Button @ Button.js:27
+react_stack_bottom_frame @ react-dom-client.development.js:25904
+renderWithHooksAgain @ react-dom-client.development.js:7762
+renderWithHooks @ react-dom-client.development.js:7674
+updateForwardRef @ react-dom-client.development.js:9724
+beginWork @ react-dom-client.development.js:12117
+runWithFiberInDEV @ react-dom-client.development.js:871
+performUnitOfWork @ react-dom-client.development.js:17641
+workLoopSync @ react-dom-client.development.js:17469
+renderRootSync @ react-dom-client.development.js:17450
+performWorkOnRoot @ react-dom-client.development.js:16504
+performSyncWorkOnRoot @ react-dom-client.development.js:18972
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:18814
+processRootScheduleInMicrotask @ react-dom-client.development.js:18853
+(anonymous) @ react-dom-client.development.js:18991
+<Button>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:335
+CustomNavbar @ Navbar.tsx:81
+react_stack_bottom_frame @ react-dom-client.development.js:25904
+renderWithHooksAgain @ react-dom-client.development.js:7762
+renderWithHooks @ react-dom-client.development.js:7674
+updateFunctionComponent @ react-dom-client.development.js:10166
+beginWork @ react-dom-client.development.js:11778
+runWithFiberInDEV @ react-dom-client.development.js:871
+performUnitOfWork @ react-dom-client.development.js:17641
+workLoopSync @ react-dom-client.development.js:17469
+renderRootSync @ react-dom-client.development.js:17450
+performWorkOnRoot @ react-dom-client.development.js:16504
+performSyncWorkOnRoot @ react-dom-client.development.js:18972
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:18814
+processRootScheduleInMicrotask @ react-dom-client.development.js:18853
+(anonymous) @ react-dom-client.development.js:18991
+authSlice.ts:281 Logout rejected but state cleared
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+PvlcLoginPage.tsx:48 Submitting login form
+authSlice.ts:63 Logging in with: {login: 'admin', password: 'admin123'}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: false, user: undefined}
+index.ts:21 🔧 Interceptor - URL: /api/auth/login
+index.ts:22 🔧 Interceptor - Token exists: false
+authSlice.ts:67 Raw API response: {data: {…}}
+authSlice.ts:76 Response data: {token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3N…nVlfQ.IcC_NlyYXwz7g1zEwKiFFsw1kAZ2kU2uh0MY7Pc3eoM', user: {…}, expires_at: '2025-12-08T15:06:27.5906771+03:00'}
+authSlice.ts:85 Found token: eyJhbGciOiJIUzI1NiIs...
+authSlice.ts:90 Found user: {id: 3, login: 'admin', is_moderator: true}
+authSlice.ts:97 ✅ Token saved to localStorage
+authSlice.ts:105 ✅ User saved to localStorage: {id: 3, login: 'admin', is_moderator: true}
+authSlice.ts:254 Login fulfilled, user set: {id: 3, login: 'admin', is_moderator: true}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+PvlcLoginPage.tsx:26 Already authenticated, redirecting to /pvlc_patients
+PvlcLoginPage.tsx:53 Login result: {type: 'auth/loginUser/fulfilled', payload: {…}, meta: {…}}
+PvlcLoginPage.tsx:56 Login successful, getting profile...
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+index.ts:21 🔧 Interceptor - URL: /api/auth/profile
+index.ts:22 🔧 Interceptor - Token exists: true
+index.ts:29 🔧 Interceptor - Added Authorization header
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+authSlice.ts:156 Profile API response: {data: {…}}
+authSlice.ts:167 Extracted profile from response.data
+authSlice.ts:177 Profile data: {id: 3, login: 'admin', is_moderator: true}
+authSlice.ts:181 ✅ Profile saved to localStorage
+authSlice.ts:295 GetProfile fulfilled, user set: {id: 3, login: 'admin', is_moderator: true}
+Navbar.tsx:33 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+installHook.js:1 Navbar - Auth state: {isAuthenticated: true, user: 'admin'}
+PvlcLoginPage.tsx:59 Profile loaded, redirecting...
+cartSlice.ts:53 Adding to cart, formulaId: 7
+cartSlice.ts:57 Token exists: true
+index.ts:21 🔧 Interceptor - URL: /api/pvlc-med-formulas/7/add-to-cart
+index.ts:22 🔧 Interceptor - Token exists: true
+index.ts:29 🔧 Interceptor - Added Authorization header
+cartSlice.ts:62 Add to cart response: {data: {…}}
+proxy.js:1 [Violation] 'setInterval' handler took 6733ms
+:3000/#/pvlc_patients:1  Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist.
+
+backend:
+time="2025-12-07T15:06:28+03:00" level=debug msg="GetProfile successful for user: admin"
+[GIN] 2025/12/07 - 15:06:28 | 200 |    336.0245ms |             ::1 | GET      "/api/auth/profile"
+[GIN] 2025/12/07 - 15:06:28 | 200 |    280.3381ms |             ::1 | GET      "/api/med_card/icon"
+time="2025-12-07T15:06:28+03:00" level=info msg="=== HEADERS DEBUG ==="
+time="2025-12-07T15:06:28+03:00" level=info msg="Request: GET /api/pvlc-med-formulas"
+time="2025-12-07T15:06:28+03:00" level=info msg="=== HEADERS DEBUG ==="
+time="2025-12-07T15:06:28+03:00" level=info msg="Request: GET /api/med_card/icon"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua = \"Microsoft Edge\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua-Mobile = ?0"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Mode = cors"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Dest = empty"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept = */*"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Site = same-origin"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept-Encoding = gzip, deflate, br, zstd"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Connection = keep-alive"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Dest = empty"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Referer = https://192.168.1.14:3000/"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua-Platform = \"Windows\""
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Origin = https://192.168.1.14:3000"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept-Encoding = gzip, deflate, br, zstd"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Connection = close"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Site = cross-site"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept-Language = ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua-Platform = \"Windows\""
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Content-Type = application/json"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Authorization = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjUxOTU1ODcsImlhdCI6MTc2NTEwOTE4NywiaXNzIjoibHVuZy1jYXBhY2l0eS1hcHAiLCJ1c2VyX2lkIjozLCJsb2dpbiI6ImFkbWluIiwiaXNfbW9kZXJhdG9yIjp0cnVlfQ.IcC_NlyYXwz7g1zEwKiFFsw1kAZ2kU2uh0MY7Pc3eoM"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Mode = cors"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept-Language = ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept = application/json, text/plain, */*"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua = \"Microsoft Edge\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+time="2025-12-07T15:06:28+03:00" level=info msg="=== END HEADERS DEBUG ==="
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua-Mobile = ?0"
+time="2025-12-07T15:06:28+03:00" level=info msg="=== END HEADERS DEBUG ==="
+time="2025-12-07T15:06:28+03:00" level=debug msg="AuthMiddleware started for path: /api/pvlc-med-formulas"     
+time="2025-12-07T15:06:28+03:00" level=debug msg="Raw Authorization header: ''"
+time="2025-12-07T15:06:28+03:00" level=debug msg="AuthMiddleware started for path: /api/med_card/icon"
+time="2025-12-07T15:06:28+03:00" level=debug msg="Raw Authorization header: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjUxOTU1ODcsImlhdCI6MTc2NTEwOTE4NywiaXNzIjoibHVuZy1jYXBhY2l0eS1hcHAiLCJ1c2VyX2lkIjozLCJsb2dpbiI6ImFkbWluIiwiaXNfbW9kZXJhdG9yIjp0cnVlfQ.IcC_NlyYXwz7g1zEwKiFFsw1kAZ2kU2uh0MY7Pc3eoM'"
+time="2025-12-07T15:06:28+03:00" level=debug msg="No Authorization header found"
+time="2025-12-07T15:06:28+03:00" level=debug msg="Token extracted: eyJhbGciOi..."
+[GIN] 2025/12/07 - 15:06:28 | 200 |    258.7566ms |             ::1 | GET      "/api/pvlc-med-formulas"
+time="2025-12-07T15:06:28+03:00" level=debug msg="JWT not found in blacklist: jwt_blacklist:eyJhbG..."
+time="2025-12-07T15:06:28+03:00" level=debug msg="User claims set in context: 3 admin"
+[GIN] 2025/12/07 - 15:06:28 | 200 |     269.901ms |             ::1 | GET      "/api/med_card/icon"
+time="2025-12-07T15:06:28+03:00" level=info msg="=== HEADERS DEBUG ==="
+time="2025-12-07T15:06:28+03:00" level=info msg="Request: GET /api/pvlc-med-formulas"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Connection = close"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua-Platform = \"Windows\""
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua = \"Microsoft Edge\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Content-Type = application/json"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept = */*"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Site = same-origin"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Mode = cors"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Fetch-Dest = empty"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Sec-Ch-Ua-Mobile = ?0"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Referer = https://192.168.1.14:3000/"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept-Encoding = gzip, deflate, br, zstd"
+time="2025-12-07T15:06:28+03:00" level=info msg="Header: Accept-Language = ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7"
+time="2025-12-07T15:06:28+03:00" level=info msg="=== END HEADERS DEBUG ==="
+time="2025-12-07T15:06:28+03:00" level=debug msg="AuthMiddleware started for path: /api/pvlc-med-formulas"     
+time="2025-12-07T15:06:28+03:00" level=debug msg="Raw Authorization header: ''"
+time="2025-12-07T15:06:28+03:00" level=debug msg="No Authorization header found"
+[GIN] 2025/12/07 - 15:06:28 | 200 |     78.8081ms |             ::1 | GET      "/api/pvlc-med-formulas"
+[GIN] 2025/12/07 - 15:06:36 | 204 |      9.8103ms |             ::1 | OPTIONS  "/api/pvlc-med-formulas/7/add-to-cart"
+time="2025-12-07T15:06:36+03:00" level=info msg="=== HEADERS DEBUG ==="
+time="2025-12-07T15:06:36+03:00" level=info msg="Request: POST /api/pvlc-med-formulas/7/add-to-cart"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Sec-Ch-Ua-Platform = \"Windows\""
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Sec-Ch-Ua = \"Microsoft Edge\";v=\"143\", \"Chromium\";v=\"143\", \"Not A(Brand\";v=\"24\""
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Sec-Fetch-Dest = empty"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Accept = application/json, text/plain, */*"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Sec-Ch-Ua-Mobile = ?0"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Origin = https://192.168.1.14:3000"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Sec-Fetch-Mode = cors"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Connection = keep-alive"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Accept-Language = ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Content-Length = 0"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Authorization = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjUxOTU1ODcsImlhdCI6MTc2NTEwOTE4NywiaXNzIjoibHVuZy1jYXBhY2l0eS1hcHAiLCJ1c2VyX2lkIjozLCJsb2dpbiI6ImFkbWluIiwiaXNfbW9kZXJhdG9yIjp0cnVlfQ.IcC_NlyYXwz7g1zEwKiFFsw1kAZ2kU2uh0MY7Pc3eoM"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Sec-Fetch-Site = cross-site"
+time="2025-12-07T15:06:36+03:00" level=info msg="Header: Accept-Encoding = gzip, deflate, br, zstd"
+time="2025-12-07T15:06:36+03:00" level=info msg="=== END HEADERS DEBUG ==="
+time="2025-12-07T15:06:36+03:00" level=debug msg="AuthMiddleware started for path: /api/pvlc-med-formulas/7/add-to-cart"
+time="2025-12-07T15:06:36+03:00" level=debug msg="Raw Authorization header: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjUxOTU1ODcsImlhdCI6MTc2NTEwOTE4NywiaXNzIjoibHVuZy1jYXBhY2l0eS1hcHAiLCJ1c2VyX2lkIjozLCJsb2dpbiI6ImFkbWluIiwiaXNfbW9kZXJhdG9yIjp0cnVlfQ.IcC_NlyYXwz7g1zEwKiFFsw1kAZ2kU2uh0MY7Pc3eoM'"
+time="2025-12-07T15:06:36+03:00" level=debug msg="Token extracted: eyJhbGciOi..."
+time="2025-12-07T15:06:36+03:00" level=debug msg="JWT not found in blacklist: jwt_blacklist:eyJhbG..."
+time="2025-12-07T15:06:36+03:00" level=debug msg="User claims set in context: 3 admin"
+time="2025-12-07T15:06:36+03:00" level=debug msg="RequireAuth started for path: /api/pvlc-med-formulas/7/add-to-cart"
+time="2025-12-07T15:06:36+03:00" level=debug msg="User authenticated: 3 admin"
+
+2025/12/07 15:06:36 C:/Users/cabel/OneDrive/Рабочий стол/IAD frontend/Internet-Apps-Development-FRONTEND-/lab1/internal/app/repository/pvlc_repo.go:111 record not found
+[17.616ms] [rows:0] SELECT * FROM "med_mm_pvlc_calculations" WHERE pvlc_med_card_id = 6 AND pvlc_med_formula_id = 7 ORDER BY "med_mm_pvlc_calculations"."pvlc_med_card_id" LIMIT 1
+[GIN] 2025/12/07 - 15:06:36 | 200 |    419.1095ms |             ::1 | POST     "/api/pvlc-med-formulas/7/add-to-cart"
