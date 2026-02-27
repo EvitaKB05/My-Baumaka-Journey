@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин продуктов</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 300px;
+            margin: 15px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .product-card {
+            cursor: pointer;
+        }
+        .product-card .card-title {
+            cursor: pointer;
+        }
+        #content-container, #products-container, #cart-items-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        #back-button-container {
+            margin: 20px;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .navbar-brand {
+            margin: 0 auto;
+            font-size: 1.5rem;
+        }
+        #searchInput {
+            width: 300px;
+        }
+        .btn-outline-primary, .btn-primary {
+            transition: all 0.3s ease;
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/index-DRLyVMPb.js"></script>
+</head>
+<body>
+    <div class="container mt-4" id="app">
+        <!-- Контент сайта-->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
