@@ -1,0 +1,392 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Страница — 1" id="U4Isl8qPsqdzwmbU2GNe">
+    <mxGraphModel dx="1699" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="reaERITE3zUWjGXwfcWY-95" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-52" target="reaERITE3zUWjGXwfcWY-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="990" as="sourcePoint" />
+            <mxPoint x="360" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reaERITE3zUWjGXwfcWY-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1105" y="160" as="sourcePoint" />
+            <mxPoint x="1135" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1075" y="240" />
+              <mxPoint x="1075" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reaERITE3zUWjGXwfcWY-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="105" as="sourcePoint" />
+            <mxPoint x="515" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="455" y="185" />
+              <mxPoint x="455" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reaERITE3zUWjGXwfcWY-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-510" y="70" as="sourcePoint" />
+            <mxPoint x="-480" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-540" y="150" />
+              <mxPoint x="-540" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-1" value="Студенты" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-5" value="Оценки" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-6" value="Предметы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-7" value="Расписания&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-8" value="База данных студентов" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-9" value="База данных преподавателей" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-10" value="База данных корпусов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-11" value="База данных направлений" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-12" value="База данных&amp;nbsp;&lt;div&gt;оценок&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-13" value="База данных предметов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-14" value="База данных расписаний" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-16" value="Набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-17" value="Обработка данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="210" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="320" as="sourcePoint" />
+            <mxPoint x="-470" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-20" value="Корректный набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=light-dark(#ffffff, #ededed);labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-21" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="420" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="540" as="sourcePoint" />
+            <mxPoint x="-470" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-23" value="Проверка данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="-530" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-24" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="630" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="740" as="sourcePoint" />
+            <mxPoint x="-470" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-8" target="reaERITE3zUWjGXwfcWY-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="750" as="sourcePoint" />
+            <mxPoint x="-240" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-27" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="-530" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-28" value="Ведение журнала оценок" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="950" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-30" value="База данных предметов" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="465" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-31" value="Набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="155" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-32" value="Обработка данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="245" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="355" as="sourcePoint" />
+            <mxPoint x="525" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-34" value="Корректный набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=light-dark(#ffffff, #ededed);labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="430" y="385" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-35" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="455" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="625" y="575" as="sourcePoint" />
+            <mxPoint x="525" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-37" value="Проверка данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="465" y="595" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-38" value="Контроль актуальности&lt;div&gt;данных&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="465" y="665" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="625" y="775" as="sourcePoint" />
+            <mxPoint x="525" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-40" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="465" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reaERITE3zUWjGXwfcWY-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="105" as="sourcePoint" />
+            <mxPoint x="290" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="185" />
+              <mxPoint x="230" y="215" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-42" value="База данных преподавателей" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-43" value="Набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="155" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-44" value="Обработка данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="245" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="355" as="sourcePoint" />
+            <mxPoint x="300" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-46" value="Корректный набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=light-dark(#ffffff, #ededed);labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="205" y="385" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-47" value="Регистрация" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="455" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="575" as="sourcePoint" />
+            <mxPoint x="300" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-49" value="Проверка данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="240" y="595" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-50" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="665" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="775" as="sourcePoint" />
+            <mxPoint x="300" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-52" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="245" y="835" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-2" value="Преподаватели" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-56" value="База данных расписаний" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-57" value="Набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-58" value="Обработка данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="300" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-59" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1255" y="410" as="sourcePoint" />
+            <mxPoint x="1145" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-60" value="Корректный набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=light-dark(#ffffff, #ededed);labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="440" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-61" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="510" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1245" y="630" as="sourcePoint" />
+            <mxPoint x="1145" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-63" value="Проверка данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="1085" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-64" value="Контроль актуальности&lt;div&gt;данных&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="720" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1245" y="830" as="sourcePoint" />
+            <mxPoint x="1145" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-66" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="1085" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-67" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reaERITE3zUWjGXwfcWY-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="892" y="185" as="sourcePoint" />
+            <mxPoint x="922" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="862" y="265" />
+              <mxPoint x="862" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-68" value="База данных корпусов" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="872" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-69" value="Набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="872" y="235" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-70" value="Обработка данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="872" y="325" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1042" y="435" as="sourcePoint" />
+            <mxPoint x="932" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-72" value="Корректный набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=light-dark(#ffffff, #ededed);labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="837" y="465" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-73" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="872" y="535" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-74" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1032" y="655" as="sourcePoint" />
+            <mxPoint x="932" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-75" value="Проверка данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="872" y="675" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-76" value="Контроль актуальности&lt;div&gt;данных&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="872" y="745" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1032" y="855" as="sourcePoint" />
+            <mxPoint x="932" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-78" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="877" y="915" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-3" value="Корпуса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-79" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="reaERITE3zUWjGXwfcWY-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655" y="205" as="sourcePoint" />
+            <mxPoint x="685" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="285" />
+              <mxPoint x="625" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-80" value="База данных направлений" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="635" y="935" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-81" value="Набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="255" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-82" value="Обработка данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="635" y="345" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-83" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805" y="455" as="sourcePoint" />
+            <mxPoint x="695" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-84" value="Корректный набор данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=light-dark(#ffffff, #ededed);labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="485" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-85" value="Создание базы данных" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="635" y="555" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="675" as="sourcePoint" />
+            <mxPoint x="695" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-87" value="Проверка данных" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=default;labelBorderColor=light-dark(#ffffff, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="635" y="695" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-88" value="Контроль актуальности&lt;div&gt;данных&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="635" y="765" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-89" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="875" as="sourcePoint" />
+            <mxPoint x="695" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-90" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=light-dark(#000000,#EDEDED);" vertex="1" parent="1">
+          <mxGeometry x="635" y="935" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-4" value="Направления" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-92" value="Формирование расписания" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="960" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-93" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.346;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="reaERITE3zUWjGXwfcWY-2" target="reaERITE3zUWjGXwfcWY-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="510" as="sourcePoint" />
+            <mxPoint x="-60" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="330" />
+              <mxPoint x="-140" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="reaERITE3zUWjGXwfcWY-94" value="Оценки студентов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="318" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

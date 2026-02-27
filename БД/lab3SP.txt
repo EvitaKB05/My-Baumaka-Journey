@@ -1,0 +1,84 @@
+MYCODE SEGMENT 'CODE'
+; Лабораторная работа No 3 Кудабаева Э ИУ5-42Б
+    ASSUME CS:MYCODE, DS:MYCODE, SS:MYCODE
+ORG 100h ; Добавлено для COM-файла, если требуется
+START:
+; Инициализация сегментных регистров
+    PUSH CS
+    POP DS
+; Очищение экрана
+    CALL CLRSCR ; Закомментировано, чтобы не очищать экран перед выводом букв
+MAIN_LOOP:
+; Вывод символа 'А'
+    MOV DL, 'А'
+    CALL PUTCH
+    CALL CLRF
+; Вывод символа'Б'
+    MOV DL, 'Б'
+    CALL PUTCH
+    CALL CLRF
+; Вывод символа 'В'
+    MOV DL, 'В'
+    CALL PUTCH
+    CALL CLRF
+
+; *Сегмент вывода фамилии в столбик*
+    MOV SI, OFFSET surname_str ; Указываем SI на начало строки фамилии
+    MOV CX, 9                ; Длина фамилии "Kudabayeva" - 9 символов
+surname_loop:
+    MOV DL, [SI]           ; Берем символ из строки
+    CALL PUTCH             ; Выводим символ
+    CALL CLRF              ; Перевод строки для вывода в столбик
+    INC SI                 ; Переходим к следующему символу
+    LOOP surname_loop      ; Повторяем для всех символов фамилии
+
+; Ожидание нажатия любой клавиши
+    CALL GETCH
+; Попытка дополнительного задания проверка нажатия клавиши '*' и цикл вывода по МУ через LOOP
+    ;CMP AL, '*'
+    ;JNE MAIN_LOOP
+; Завершение программы
+    MOV AL, 0
+    MOV AH, 4Ch         ; завершение программы
+    INT 21h
+
+; Процедура для вывода символов в консоль
+PUTCH PROC
+    MOV AH, 02h
+    INT 21h
+    RET
+PUTCH ENDP
+
+; Процедура для перевода строки и возврата каретки
+CLRF PROC
+    MOV DL, 13          ; возврат каретки (CR)
+    CALL PUTCH
+    MOV DL, 10          ; перевод строки (LF)
+    CALL PUTCH
+    RET
+CLRF ENDP
+
+; Процедура для ввода символа
+GETCH PROC
+    MOV AH, 01h         ; ввод символа с эхо
+    INT 21h
+    RET
+GETCH ENDP
+
+; Процедура очистки экрана
+CLRSCR PROC
+    MOV AH, 06h         ; Функция прокрутки окна вверх
+    MOV AL, 00h         ; Число строк для прокрутки (0 - весь экран)
+    MOV BH, 07h         ; Атрибут пустых строк (белый на черном)
+    MOV CX, 0000h       ; Верхний левый угол (0,0)
+    MOV DX, 184Fh       ; Нижний правый угол (24, 79) для 80x25 экрана
+    INT 10h
+    RET
+CLRSCR ENDP
+
+; *Данные*
+surname_str DB 'Kudabayeva' ; Строка с фамилией, завершение нулем не требуется, т.к. используем счетчик
+
+MYCODE ENDS
+END START
+
