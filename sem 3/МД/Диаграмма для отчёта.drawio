@@ -1,0 +1,803 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Страница — 1" id="B1PD8D5R636TgTnket81">
+    <mxGraphModel dx="2996" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-87" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-45" y="2357.5" as="sourcePoint" />
+            <mxPoint x="-180" y="2357.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-10" value="АИС детской школы искусств" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-12" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-260" y="140" as="sourcePoint" />
+            <mxPoint x="490" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-49.5" y="201" as="sourcePoint" />
+            <mxPoint x="-255" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.5" y="200" as="sourcePoint" />
+            <mxPoint x="489.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-19" value="АРМ Преподаватель" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-20" value="АРМ Студент" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-259" y="270" as="sourcePoint" />
+            <mxPoint x="-1000" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-255" y="360" />
+              <mxPoint x="-1000" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-34" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="3530" as="sourcePoint" />
+            <mxPoint x="-97" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-44" value="Таблица &quot;Преподаватели&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="480" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-45" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Студенты&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="600" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-46" value="Таблица &quot;Направления&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="730" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-47" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Корпуса&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="860" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-48" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Предметы&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1510" y="995" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-49" value="Таблица &quot;Оценки&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-1390" y="1267.5" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-51" value="Формирование отчётов о студентах по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="25" y="490" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-52" value="Формирование отчётов о преподавателях по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="20" y="625" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-55" value="Ввод и редактирование данных о преподавателях" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="480" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-56" value="Ввод и редактирование информации о студентах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="600" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-57" value="Ввод и редактирование информации о направлениях" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="730" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-58" value="Ввод и редактирование информации о корпусах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="860" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-59" value="Ввод и редактирование информации о предметах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="-1300" y="995" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-62" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="A7FjD-Z2-uioYTVwRr5J-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1000" y="525" as="sourcePoint" />
+            <mxPoint x="-930" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-63" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1050" y="644.5" as="sourcePoint" />
+            <mxPoint x="-1000" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-64" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1050" y="774.5" as="sourcePoint" />
+            <mxPoint x="-1000" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-65" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1050" y="904.5" as="sourcePoint" />
+            <mxPoint x="-1000" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-66" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1050" y="1039.5" as="sourcePoint" />
+            <mxPoint x="-1000" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1050" y="1039.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-67" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-880" y="1290" as="sourcePoint" />
+            <mxPoint x="-30" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-880" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-22" value="Ввод и редактирование данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1080" y="405" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-69" value="" style="endArrow=none;html=1;rounded=0;" parent="1" target="A7FjD-Z2-uioYTVwRr5J-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-55" y="390" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-72" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="535" as="sourcePoint" />
+            <mxPoint x="25" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-73" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="669.5" as="sourcePoint" />
+            <mxPoint x="20" y="669.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-75" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Студенты&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="490" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-76" value="Таблица &quot;Преподаватели&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="370" y="625" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-80" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="A7FjD-Z2-uioYTVwRr5J-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1200" y="1312.5" as="sourcePoint" />
+            <mxPoint x="-1290" y="1252.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-81" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-44" target="A7FjD-Z2-uioYTVwRr5J-55" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1330" y="460" as="sourcePoint" />
+            <mxPoint x="-1280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-82" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-45" target="A7FjD-Z2-uioYTVwRr5J-56" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1330" y="660" as="sourcePoint" />
+            <mxPoint x="-1280" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-83" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-46" target="A7FjD-Z2-uioYTVwRr5J-57" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1330" y="760" as="sourcePoint" />
+            <mxPoint x="-1280" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-84" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-47" target="A7FjD-Z2-uioYTVwRr5J-58" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1330" y="860" as="sourcePoint" />
+            <mxPoint x="-1280" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-85" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-48" target="A7FjD-Z2-uioYTVwRr5J-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1330" y="960" as="sourcePoint" />
+            <mxPoint x="-1280" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-87" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-51" target="A7FjD-Z2-uioYTVwRr5J-75" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="590" as="sourcePoint" />
+            <mxPoint x="250" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-88" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-52" target="A7FjD-Z2-uioYTVwRr5J-76" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="590" as="sourcePoint" />
+            <mxPoint x="250" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-91" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-96" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="656" y="598" as="sourcePoint" />
+            <mxPoint x="190" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-92" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-97" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="656" y="733" as="sourcePoint" />
+            <mxPoint x="190" y="715" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-96" value="Отчёт о студентах по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
+          <mxGeometry x="530" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-97" value="Отчёт о преподавателях по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
+          <mxGeometry x="530" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="A7FjD-Z2-uioYTVwRr5J-20" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="410" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="362" />
+              <mxPoint x="319" y="362" />
+              <mxPoint x="490" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO63ZIZCd3hxAObVSbGm-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="A7FjD-Z2-uioYTVwRr5J-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="320" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dO63ZIZCd3hxAObVSbGm-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="A7FjD-Z2-uioYTVwRr5J-19" target="A7FjD-Z2-uioYTVwRr5J-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="400" as="sourcePoint" />
+            <mxPoint x="-10" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="140" />
+              <mxPoint x="90" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-1" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Расписания занятий&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="1130" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-2" value="Ввод и редактирование информации о расписаниях" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="1134" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="1177.46" as="sourcePoint" />
+            <mxPoint x="-1290" y="1177.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1030" y="1200" as="sourcePoint" />
+            <mxPoint x="-1000" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1000" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-6" value="Таблица &quot;Студенты&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="680" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-5" target="aeBQmjgj0VIl8-jae-1G-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-61" y="645" as="sourcePoint" />
+            <mxPoint x="-111" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.556;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-9" target="aeBQmjgj0VIl8-jae-1G-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-477" y="868" as="sourcePoint" />
+            <mxPoint x="-11" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-370" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-9" value="Отчёт о студентах всех направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-11" value="Таблица &quot;Преподаватели&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=0;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="860" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-10" target="aeBQmjgj0VIl8-jae-1G-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-321" y="855" as="sourcePoint" />
+            <mxPoint x="-371" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-14" target="aeBQmjgj0VIl8-jae-1G-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-577" y="998" as="sourcePoint" />
+            <mxPoint x="-111" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-356" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-14" value="Отчёт о преподавателях всех направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="290" as="sourcePoint" />
+            <mxPoint x="-240" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-97" y="360" />
+              <mxPoint x="-240" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-17" value="Таблица &quot;Оценки&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1092.5" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-16" target="aeBQmjgj0VIl8-jae-1G-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1057.5" as="sourcePoint" />
+            <mxPoint x="250" y="1007.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="656" y="1200.5" as="sourcePoint" />
+            <mxPoint x="190" y="1182.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="1200.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-20" value="Отчёт об оценках по студенту" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1157.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-22" value="Таблица &quot;Оценки&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1237.5" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-21" target="aeBQmjgj0VIl8-jae-1G-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="1245" as="sourcePoint" />
+            <mxPoint x="255" y="1195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1325" />
+              <mxPoint x="330" y="1283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661" y="1388" as="sourcePoint" />
+            <mxPoint x="195" y="1370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-25" value="Отчёт об оценках по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-26" value="Таблица &quot;Направления&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1365" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="aeBQmjgj0VIl8-jae-1G-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="1338.03" as="sourcePoint" />
+            <mxPoint x="370" y="1406" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1338" />
+              <mxPoint x="330" y="1398" />
+              <mxPoint x="330" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-30" value="Таблица &quot;Оценки&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="1592.5" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-33" target="aeBQmjgj0VIl8-jae-1G-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-234" y="1687" as="sourcePoint" />
+            <mxPoint x="-700" y="1669" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-305" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-33" value="Отчёт об оценках по преподавателю" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-37" value="Таблица &quot;Оценки&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1814" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-36" target="aeBQmjgj0VIl8-jae-1G-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-585" y="1857.5" as="sourcePoint" />
+            <mxPoint x="-535" y="1807.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-560" y="1820" />
+              <mxPoint x="-560" y="1860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-40" target="aeBQmjgj0VIl8-jae-1G-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-129" y="2000.5" as="sourcePoint" />
+            <mxPoint x="-595" y="1982.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-365" y="2113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-40" value="Отчёт о средних оценках всех направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="2070" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-41" value="Таблица &quot;Направления&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1936" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.656;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="aeBQmjgj0VIl8-jae-1G-41" source="aeBQmjgj0VIl8-jae-1G-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-515" y="1950.5299999999997" as="sourcePoint" />
+            <mxPoint x="-420" y="2018.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-540" y="1834" />
+              <mxPoint x="-540" y="1920" />
+              <mxPoint x="-540" y="1980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-44" value="Таблица &quot;Предметы&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2210" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-43" target="aeBQmjgj0VIl8-jae-1G-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="2175" as="sourcePoint" />
+            <mxPoint x="250" y="2125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="325" y="2255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="656" y="2318" as="sourcePoint" />
+            <mxPoint x="190" y="2300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="2430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-47" value="Отчёт о предметах по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-49" value="Таблица &quot;Предметы_Студенты&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2500" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-48" target="aeBQmjgj0VIl8-jae-1G-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="2465" as="sourcePoint" />
+            <mxPoint x="345" y="2415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="2545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="751" y="2608" as="sourcePoint" />
+            <mxPoint x="285" y="2590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="2720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-52" value="Отчёт о студентах по предмету" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-58" value="Формирование отчётов о преподавателях по предмету" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="2312.5" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-59" value="Таблица &quot;Предметы_&lt;div&gt;Преподаватели&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2312.5" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-60" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-58" target="aeBQmjgj0VIl8-jae-1G-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-495" y="2242.5" as="sourcePoint" />
+            <mxPoint x="-545" y="2192.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-62" target="aeBQmjgj0VIl8-jae-1G-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-169" y="2385.5" as="sourcePoint" />
+            <mxPoint x="-635" y="2367.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-305" y="2507.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-62" value="Отчёт о преподавателях по предмету" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="2467.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-63" value="Формирование отчётов о всех предметах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="2830" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-64" value="Таблица &quot;Предметы&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="2830" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-65" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-63" target="aeBQmjgj0VIl8-jae-1G-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-590" y="2845" as="sourcePoint" />
+            <mxPoint x="-540" y="2795" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-67" target="aeBQmjgj0VIl8-jae-1G-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-134" y="2988" as="sourcePoint" />
+            <mxPoint x="-600" y="2970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-310" y="3030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-67" value="Отчёт о всех предметах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="2990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-68" value="Формирование отчётов о расписании по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="25" y="3150" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-69" value="Таблица &quot;Расписания&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="385" y="3150" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-70" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-68" target="aeBQmjgj0VIl8-jae-1G-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="3115" as="sourcePoint" />
+            <mxPoint x="255" y="3065" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="3195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-71" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661" y="3258" as="sourcePoint" />
+            <mxPoint x="195" y="3240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="3370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-72" value="Отчёт о расписании по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-73" value="Формирование отчётов о расписании по преподавателю" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="25" y="3420" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-74" value="Таблица &quot;Расписания&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="385" y="3420" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-75" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-73" target="aeBQmjgj0VIl8-jae-1G-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="3385" as="sourcePoint" />
+            <mxPoint x="255" y="3335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="3465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-76" value="" style="endArrow=none;html=1;rounded=0;entryX=0.696;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="661" y="3528" as="sourcePoint" />
+            <mxPoint x="195" y="3510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="195" y="3640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-77" value="Отчёт о расписании по преподавателю" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="530" y="3600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-78" value="Формирование отчётов о всех расписаниях направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-445" y="3484" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-79" value="Таблица &quot;Расписания&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;&lt;/span&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="3484" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-80" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-78" target="aeBQmjgj0VIl8-jae-1G-79">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-595" y="3475" as="sourcePoint" />
+            <mxPoint x="-545" y="3425" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-81" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-82" target="aeBQmjgj0VIl8-jae-1G-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-139" y="3618" as="sourcePoint" />
+            <mxPoint x="-605" y="3600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="3640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-82" value="Отчёт всех расписаниях направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-705" y="3600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-83" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-490" y="3560" as="sourcePoint" />
+            <mxPoint x="-110" y="3530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-84" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="3464.38" as="sourcePoint" />
+            <mxPoint x="-110" y="3464.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-85" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25" y="3194.38" as="sourcePoint" />
+            <mxPoint x="-110" y="3194.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-105" y="2874" as="sourcePoint" />
+            <mxPoint x="-185" y="2874.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-89" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="2544.38" as="sourcePoint" />
+            <mxPoint x="-10" y="2544.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-48" value="Формирование отчётов о студентах по предмету" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2500" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-90" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="2254.38" as="sourcePoint" />
+            <mxPoint x="-105" y="2254.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-43" value="Формирование отчётов о предметах по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2210" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-91" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-105" y="1820" as="sourcePoint" />
+            <mxPoint x="-240" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-36" value="Формирование отчётов о средних оценках всех направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="1775" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-92" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-45" y="1636.73" as="sourcePoint" />
+            <mxPoint x="-180" y="1636.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-29" value="Формирование отчётов об оценках по преподавателю" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="1592.5" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-93" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="1324.38" as="sourcePoint" />
+            <mxPoint x="-100" y="1324.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-21" value="Формирование отчётов об оценках по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1280" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-94" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="1136.88" as="sourcePoint" />
+            <mxPoint x="-100" y="1136.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-16" value="Формирование отчётов об оценках по студенту" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1092.5" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-95" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-231" y="724.23" as="sourcePoint" />
+            <mxPoint x="-96" y="724.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-5" value="Формирование отчётов о студентах всех направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="680" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-96" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-96" y="904.23" as="sourcePoint" />
+            <mxPoint x="-231" y="904.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-10" value="Формирование отчётов о преподавателях всех направлений" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="860" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-18" value="АРМ Администратор" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-315" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-97" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="3473.076923076923" as="sourcePoint" />
+            <mxPoint y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-24" value="Формирование отчётов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="380" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-98" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="540" as="sourcePoint" />
+            <mxPoint x="-55" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-99" value="Ввод и редактирование информации ою оценках" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-1198" y="1267.5" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-100" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-820" y="1347.5" as="sourcePoint" />
+            <mxPoint x="-880" y="1157.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-880" y="1312.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A7FjD-Z2-uioYTVwRr5J-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="3470" as="sourcePoint" />
+            <mxPoint x="-110" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-102" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-29" target="aeBQmjgj0VIl8-jae-1G-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="1640" as="sourcePoint" />
+            <mxPoint x="-170" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-104" value="Таблица &quot;Предметы_Студенты&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2590" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-105" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-108" target="aeBQmjgj0VIl8-jae-1G-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-590" y="2525" as="sourcePoint" />
+            <mxPoint x="-540" y="2475" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-106" value="" style="endArrow=none;html=1;rounded=0;entryX=0.544;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aeBQmjgj0VIl8-jae-1G-107" target="aeBQmjgj0VIl8-jae-1G-108">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-134" y="2668" as="sourcePoint" />
+            <mxPoint x="-600" y="2650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-297" y="2750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-107" value="Отчёт о студентах по предмету" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="2710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-108" value="Формирование отчётов о студентах по предмету" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="2590" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBQmjgj0VIl8-jae-1G-109" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="2634" as="sourcePoint" />
+            <mxPoint x="-163" y="2634.46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

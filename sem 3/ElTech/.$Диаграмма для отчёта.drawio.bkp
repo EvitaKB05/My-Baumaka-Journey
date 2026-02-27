@@ -1,0 +1,218 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.1 Chrome/128.0.6613.186 Electron/32.2.6 Safari/537.36" version="25.0.1">
+  <diagram name="Страница — 1" id="B1PD8D5R636TgTnket81">
+    <mxGraphModel dx="1689" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-10" value="АИС детской школы искусств" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="140" as="sourcePoint" />
+            <mxPoint x="710" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-49.5" y="201" as="sourcePoint" />
+            <mxPoint x="-49.5" y="141" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="200" as="sourcePoint" />
+            <mxPoint x="710" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-18" value="АРМ Администратор" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-19" value="АРМ Преподаватель" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-20" value="АРМ Студент" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-23" value="Поиск информации&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-24" value="Формирование отчётов" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="320" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A7FjD-Z2-uioYTVwRr5J-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="270" as="sourcePoint" />
+            <mxPoint x="120" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-32" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-519" y="270" as="sourcePoint" />
+            <mxPoint x="-520" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="120" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-24" target="A7FjD-Z2-uioYTVwRr5J-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="270" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="270" as="sourcePoint" />
+            <mxPoint x="230" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-39" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="345" />
+              <mxPoint x="-80" y="400" />
+              <mxPoint x="290" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="A7FjD-Z2-uioYTVwRr5J-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-41" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="300" as="sourcePoint" />
+            <mxPoint x="830" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="590" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="390" />
+              <mxPoint x="590" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="A7FjD-Z2-uioYTVwRr5J-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="450" as="sourcePoint" />
+            <mxPoint x="830" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="440" />
+              <mxPoint x="830" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-44" value="Таблица &quot;Преподаватели&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="480" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-45" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Студенты&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="600" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-46" value="Таблица &quot;Направления&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="720" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-47" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Корпуса&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="850" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-48" value="Таблица&amp;nbsp;&lt;div&gt;&quot;Предметы&quot;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="980" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-49" value="Таблица &quot;Оценки&quot;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1120" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-50" value="Формирование отчётов о предметах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="580" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-51" value="Формирование отчётов о студентах по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="700" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-52" value="Формирование отчётов о преподавателях по направлению" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="145" y="810" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-54" value="Формирование отчётов о средних оценках направления" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="940" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-55" value="Ввод и редактирование данных о преподавателях" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="410" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-56" value="Ввод и редактирование информации о студентах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="540" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-57" value="Ввод и редактирование информации о направлениях" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="670" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-58" value="Ввод и редактирование информации о корпусах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="800" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-59" value="Ввод и редактирование информации о предметах" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="935" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-60" value="Ввод и редактирование информации об&lt;div&gt;оценках&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1190" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-62" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="A7FjD-Z2-uioYTVwRr5J-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="455" as="sourcePoint" />
+            <mxPoint x="-450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-22" value="Ввод и редактирование данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="320" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="585" as="sourcePoint" />
+            <mxPoint x="-390" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-64" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="714.5" as="sourcePoint" />
+            <mxPoint x="-390" y="714.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="844.5" as="sourcePoint" />
+            <mxPoint x="-390" y="844.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A7FjD-Z2-uioYTVwRr5J-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-520" y="980" as="sourcePoint" />
+            <mxPoint x="-390" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
